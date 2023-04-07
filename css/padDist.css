@@ -1,0 +1,81 @@
+body{
+    margin:20px;
+    padding:0;
+    text-align:center;
+    background-image: radial-gradient(#17043b,#190b2c,#501263) ;
+}
+h1{
+font-family: 'Yeseva One', cursive;
+color: #ede7ef;
+margin-top: 3%;
+}
+.icon{
+  margin-top: 1%;
+  margin-left: 2%;
+  width: 30px;
+  height: 30px;
+}
+.events{
+  display: flex;
+  width: 45%;
+}
+.text2{
+  margin-top: 1.5%;
+  margin-left: 1.5%;
+  color: #d4bedcdc;
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration: none;
+
+}
+.text2:hover{
+  margin-top: 1.5%;
+  margin-left: 1.5%;
+  color: #e5dee7dc;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 40px 20px 0 20px;
+  }
+  
+  .container .box{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+  }
+  
+  .container .box .dream{
+    display: flex;
+    flex-direction: column;
+    width: 32.5%;
+    box-shadow: 0 25px 45px rgba(249, 220, 249, 0.1);
+
+  }
+  
+  .container .box .dream img{
+    width: 100%;
+    padding-bottom: 15px;
+    border-radius: 5px;
+    height: 80%;
+  }
+  
+  
+  @media only screen and (max-width: 769px){
+      .container .box{
+     flex-direction: column;
+    }
+  
+  .container .box .dream{
+    width: 100%;
+  }
+   }
+  
+  
+  
